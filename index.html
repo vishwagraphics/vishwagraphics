@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishwa Graphics</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333;}
+    header {background: #0d47a1; color: white; text-align: center; padding: 40px 20px;}
+    header img {max-height: 100px;}
+    header h1 {margin: 15px 0 5px; font-size: 36px;}
+    header p {font-size: 18px; margin: 0;}
+    section {padding: 40px 20px; max-width: 1000px; margin: auto;}
+    h2 {color: #0d47a1; margin-bottom: 20px;}
+    .services, .gallery {display: flex; flex-wrap: wrap; gap: 20px;}
+    .card {flex: 1 1 calc(33% - 20px); background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+    .gallery img {width: 100%; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+    .qr {text-align: center; margin-top: 20px;}
+    footer {background: #222; color: white; text-align: center; padding: 20px;}
+    a {color: #0d47a1; text-decoration: none;}
+
+    /* Floating WhatsApp Button */
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 5px #999;
+      z-index: 100;
+    }
+    .whatsapp-float i {
+      margin-top: 15px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Vishwa Graphics Logo">
+    <h1>Vishwa Graphics</h1>
+    <p>PRINTING • DESIGN • BRANDING</p>
+  </header>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">Visiting Cards</div>
+      <div class="card">Flex & Banners</div>
+      <div class="card">Bill Books</div>
+      <div class="card">Flyers & Posters</div>
+      <div class="card">Restaurant Menus</div>
+      <div class="card">Wedding Cards</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="sample1.jpg" alt="Sample Work 1">
+      <img src="sample2.jpg" alt="Sample Work 2">
+      <img src="sample3.jpg" alt="Sample Work 3">
+    </div>
+  </section>
+
+  <section>
+    <h2>Reviews</h2>
+    <div class="qr">
+      <p>Scan to give us a Google Review:</p>
+      <img src="qr.png" alt="Google Review QR" width="200">
+    </div>
+  </section>
+
+  <footer>
+    <p>📍 Near Shiv Mandir, Athoorwala, Koti Road, Bhaniawala, Dehradun</p>
+    <p>📞 <a href="tel:+918192892914">+91 81928 92914</a> | <a href="https://wa.me/918192892914">WhatsApp Us</a></p>
+    <p>&copy; 2025 Vishwa Graphics. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/918192892914" class="whatsapp-float" target="_blank">
+    <i class="fa fa-whatsapp"></i>
+  </a>
+</body>
+</html>
